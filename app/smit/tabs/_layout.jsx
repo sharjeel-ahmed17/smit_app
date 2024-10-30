@@ -36,7 +36,7 @@ const TabsLayout = () => {
                         <Entypo
                             name={route.icon}
                             size={24}
-                            color={index === routes.findIndex(r => r.key === route.key) ? 'green' : 'gray'}
+                            color={index === routes.findIndex(r => r.key === route.key) ? 'rgba(26,41,128,1)' : 'rgba(26,41,128,1)'}
                         />
                     )}
                     indicatorStyle={{ backgroundColor: 'green' }}
