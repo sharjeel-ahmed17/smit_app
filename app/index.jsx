@@ -10,7 +10,7 @@ const Home = () => {
             <Link href='/smit/tabs' className='mt-5 p-3 bg-red-500'>go to tab screen </Link>
             <AntDesign name='stepforward' size={49} color={'blue'} />
 
-            <Text className='text-center'>hello world </Text>
+            <Text className='text-center text-primary bg-secondary'>hello world </Text>
         </View>
     )
 }

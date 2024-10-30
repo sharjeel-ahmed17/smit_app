@@ -7,7 +7,13 @@ module.exports = {
     extend: {
       colors: {
         primary: 'rgba(38, 208, 206, 1)',
-      }
+        secondary: 'rgba(26,41,128,1)'
+      },
+      backgroundColor: {
+        primary: 'rgba(38, 208, 206, 1)',
+        secondary: 'rgba(26,41,128,1)'
+      },
+
     },
   },
   plugins: [],
